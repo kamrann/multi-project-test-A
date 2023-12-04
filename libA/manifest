@@ -1,0 +1,14 @@
+: 1
+name: libA
+version: 0.1.0-a.0.z
+language: c++
+project: projA
+summary: A C++ library
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/projA
+email: cjangus@gmail.com
+#build-error-email: cjangus@gmail.com
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0
+#depends: libhello ^1.0.0

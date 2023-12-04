@@ -1,0 +1,6 @@
+libs =
+import libs += libB%lib{B}
+
+exe{exeA}: {hxx ixx txx cxx}{**} $libs
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"

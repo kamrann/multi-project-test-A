@@ -1,0 +1,6 @@
+project = libA
+
+using version
+using config
+using install
+using dist
