@@ -8,4 +8,4 @@ summary: projA project repository
 
 :
 role: prerequisite
-location: https://github.com/kamrann/multi-project-test-B.git#main
+location: https://github.com/kamrann/multi-project-test-B.git#project-level-cycle
